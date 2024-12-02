@@ -1,0 +1,220 @@
+2024-11-25T13:05:29.179-03:00  INFO 3400 --- [projetomusica] [restartedMain] c.p.p.ProjetomusicaApplication           : Starting ProjetomusicaApplication using Java 17.0.13 with PID 3400 (C:\Users\Proman\Documents\projetomusica\build\classes\java\main started by Proman in C:\Users\Proman\Documents\projetomusica)
+2024-11-25T13:05:29.226-03:00  INFO 3400 --- [projetomusica] [restartedMain] c.p.p.ProjetomusicaApplication           : The following 1 profile is active: "dev"
+2024-11-25T13:05:30.001-03:00  INFO 3400 --- [projetomusica] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-25T13:05:30.003-03:00  INFO 3400 --- [projetomusica] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-25T13:05:32.487-03:00  INFO 3400 --- [projetomusica] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-25T13:05:32.666-03:00  INFO 3400 --- [projetomusica] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 156 ms. Found 4 JPA repository interfaces.
+2024-11-25T13:05:37.640-03:00  INFO 3400 --- [projetomusica] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-25T13:05:37.687-03:00  INFO 3400 --- [projetomusica] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-25T13:05:37.687-03:00  INFO 3400 --- [projetomusica] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-25T13:05:37.848-03:00  INFO 3400 --- [projetomusica] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-25T13:05:37.848-03:00  INFO 3400 --- [projetomusica] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7834 ms
+2024-11-25T13:05:37.958-03:00  INFO 3400 --- [projetomusica] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-25T13:05:38.398-03:00  INFO 3400 --- [projetomusica] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@55562c23
+2024-11-25T13:05:38.413-03:00  INFO 3400 --- [projetomusica] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-25T13:05:38.445-03:00  INFO 3400 --- [projetomusica] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/projetomusica'
+2024-11-25T13:05:39.105-03:00  INFO 3400 --- [projetomusica] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-25T13:05:39.338-03:00  INFO 3400 --- [projetomusica] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-25T13:05:39.550-03:00  INFO 3400 --- [projetomusica] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-25T13:05:40.746-03:00  INFO 3400 --- [projetomusica] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-25T13:05:43.641-03:00  INFO 3400 --- [projetomusica] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-25T13:05:43.703-03:00 DEBUG 3400 --- [projetomusica] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists musica 
+       drop constraint if exists FKewj7nk1ablfs4j4999psft80w
+2024-11-25T13:05:43.766-03:00 DEBUG 3400 --- [projetomusica] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists musica 
+       drop constraint if exists FKe3g2763cpan6bnqwye7e2ly3s
+2024-11-25T13:05:43.766-03:00 DEBUG 3400 --- [projetomusica] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists musica 
+       drop constraint if exists FKh20suqr9w1pocp1my4i70ghoc
+2024-11-25T13:05:43.766-03:00 DEBUG 3400 --- [projetomusica] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists album cascade
+2024-11-25T13:05:43.782-03:00 DEBUG 3400 --- [projetomusica] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists cantor cascade
+2024-11-25T13:05:43.810-03:00 DEBUG 3400 --- [projetomusica] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists gravadora cascade
+2024-11-25T13:05:43.822-03:00 DEBUG 3400 --- [projetomusica] [restartedMain] org.hibernate.SQL                        : 
+    drop table if exists musica cascade
+2024-11-25T13:05:43.827-03:00 DEBUG 3400 --- [projetomusica] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_album
+2024-11-25T13:05:43.843-03:00 DEBUG 3400 --- [projetomusica] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_cantor
+2024-11-25T13:05:43.843-03:00 DEBUG 3400 --- [projetomusica] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_gravadora
+2024-11-25T13:05:43.858-03:00 DEBUG 3400 --- [projetomusica] [restartedMain] org.hibernate.SQL                        : 
+    drop sequence if exists seq_musica
+2024-11-25T13:05:43.874-03:00 DEBUG 3400 --- [projetomusica] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_album start with 1 increment by 50
+2024-11-25T13:05:43.890-03:00 DEBUG 3400 --- [projetomusica] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_cantor start with 1 increment by 50
+2024-11-25T13:05:43.909-03:00 DEBUG 3400 --- [projetomusica] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_gravadora start with 1 increment by 50
+2024-11-25T13:05:43.914-03:00 DEBUG 3400 --- [projetomusica] [restartedMain] org.hibernate.SQL                        : 
+    create sequence seq_musica start with 1 increment by 50
+2024-11-25T13:05:43.931-03:00 DEBUG 3400 --- [projetomusica] [restartedMain] org.hibernate.SQL                        : 
+    create table album (
+        id integer not null,
+        nome varchar(255) not null,
+        primary key (id)
+    )
+2024-11-25T13:05:43.969-03:00 DEBUG 3400 --- [projetomusica] [restartedMain] org.hibernate.SQL                        : 
+    create table cantor (
+        id integer not null,
+        cpf varchar(255) not null,
+        estilo_musical varchar(255) not null,
+        nome varchar(255) not null,
+        nome_artistico varchar(255) not null,
+        primary key (id)
+    )
+2024-11-25T13:05:43.991-03:00 DEBUG 3400 --- [projetomusica] [restartedMain] org.hibernate.SQL                        : 
+    create table gravadora (
+        id integer not null,
+        cnpj varchar(255) not null,
+        nome varchar(255) not null,
+        sede varchar(255) not null,
+        primary key (id)
+    )
+2024-11-25T13:05:44.012-03:00 DEBUG 3400 --- [projetomusica] [restartedMain] org.hibernate.SQL                        : 
+    create table musica (
+        idalbum integer,
+        idcantor integer,
+        idgravadora integer,
+        id_musica bigint not null,
+        ano_lancamento varchar(255) not null,
+        duracao varchar(255) not null,
+        genero varchar(255) not null,
+        nome varchar(255) not null,
+        popularidade varchar(255) check (popularidade in ('BOA','MEDIA','RUIM')),
+        primary key (id_musica)
+    )
+2024-11-25T13:05:44.035-03:00 DEBUG 3400 --- [projetomusica] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists musica 
+       add constraint FKewj7nk1ablfs4j4999psft80w 
+       foreign key (idalbum) 
+       references album
+2024-11-25T13:05:44.051-03:00 DEBUG 3400 --- [projetomusica] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists musica 
+       add constraint FKe3g2763cpan6bnqwye7e2ly3s 
+       foreign key (idcantor) 
+       references cantor
+2024-11-25T13:05:44.066-03:00 DEBUG 3400 --- [projetomusica] [restartedMain] org.hibernate.SQL                        : 
+    alter table if exists musica 
+       add constraint FKh20suqr9w1pocp1my4i70ghoc 
+       foreign key (idgravadora) 
+       references gravadora
+2024-11-25T13:05:44.082-03:00  INFO 3400 --- [projetomusica] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-25T13:05:45.016-03:00 DEBUG 3400 --- [projetomusica] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_album')
+2024-11-25T13:05:45.160-03:00 DEBUG 3400 --- [projetomusica] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        album
+        (nome, id) 
+    values
+        (?, ?)
+2024-11-25T13:05:45.177-03:00 DEBUG 3400 --- [projetomusica] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_album')
+2024-11-25T13:05:45.177-03:00 DEBUG 3400 --- [projetomusica] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        album
+        (nome, id) 
+    values
+        (?, ?)
+2024-11-25T13:05:45.193-03:00 DEBUG 3400 --- [projetomusica] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        album
+        (nome, id) 
+    values
+        (?, ?)
+2024-11-25T13:05:45.193-03:00 DEBUG 3400 --- [projetomusica] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_cantor')
+2024-11-25T13:05:45.208-03:00 DEBUG 3400 --- [projetomusica] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        cantor
+        (cpf, estilo_musical, nome, nome_artistico, id) 
+    values
+        (?, ?, ?, ?, ?)
+2024-11-25T13:05:45.220-03:00 DEBUG 3400 --- [projetomusica] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_cantor')
+2024-11-25T13:05:45.223-03:00 DEBUG 3400 --- [projetomusica] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        cantor
+        (cpf, estilo_musical, nome, nome_artistico, id) 
+    values
+        (?, ?, ?, ?, ?)
+2024-11-25T13:05:45.230-03:00 DEBUG 3400 --- [projetomusica] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        cantor
+        (cpf, estilo_musical, nome, nome_artistico, id) 
+    values
+        (?, ?, ?, ?, ?)
+2024-11-25T13:05:45.241-03:00 DEBUG 3400 --- [projetomusica] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_gravadora')
+2024-11-25T13:05:45.257-03:00 DEBUG 3400 --- [projetomusica] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        gravadora
+        (cnpj, nome, sede, id) 
+    values
+        (?, ?, ?, ?)
+2024-11-25T13:05:45.266-03:00 DEBUG 3400 --- [projetomusica] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_gravadora')
+2024-11-25T13:05:45.271-03:00 DEBUG 3400 --- [projetomusica] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        gravadora
+        (cnpj, nome, sede, id) 
+    values
+        (?, ?, ?, ?)
+2024-11-25T13:05:45.279-03:00 DEBUG 3400 --- [projetomusica] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_musica')
+2024-11-25T13:05:45.286-03:00 DEBUG 3400 --- [projetomusica] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        musica
+        (idalbum, ano_lancamento, idcantor, duracao, genero, idgravadora, nome, popularidade, id_musica) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-25T13:05:45.296-03:00 DEBUG 3400 --- [projetomusica] [restartedMain] org.hibernate.SQL                        : 
+    select
+        nextval('seq_musica')
+2024-11-25T13:05:45.300-03:00 DEBUG 3400 --- [projetomusica] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        musica
+        (idalbum, ano_lancamento, idcantor, duracao, genero, idgravadora, nome, popularidade, id_musica) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-25T13:05:45.309-03:00 DEBUG 3400 --- [projetomusica] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        musica
+        (idalbum, ano_lancamento, idcantor, duracao, genero, idgravadora, nome, popularidade, id_musica) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-25T13:05:45.317-03:00 DEBUG 3400 --- [projetomusica] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        musica
+        (idalbum, ano_lancamento, idcantor, duracao, genero, idgravadora, nome, popularidade, id_musica) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-25T13:05:45.717-03:00  WARN 3400 --- [projetomusica] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-25T13:05:46.551-03:00  INFO 3400 --- [projetomusica] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-25T13:05:46.662-03:00  INFO 3400 --- [projetomusica] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-25T13:05:46.678-03:00  INFO 3400 --- [projetomusica] [restartedMain] c.p.p.ProjetomusicaApplication           : Started ProjetomusicaApplication in 19.666 seconds (process running for 22.404)
+2024-11-25T13:05:50.979-03:00  INFO 3400 --- [projetomusica] [http-nio-8080-exec-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-25T13:05:50.980-03:00  INFO 3400 --- [projetomusica] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-25T13:05:50.985-03:00  INFO 3400 --- [projetomusica] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms

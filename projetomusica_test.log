@@ -1,0 +1,53 @@
+2024-12-02T13:15:26.629-03:00  INFO 19892 --- [projetomusica] [restartedMain] c.p.p.ProjetomusicaApplication           : Starting ProjetomusicaApplication using Java 17.0.12 with PID 19892 (C:\ProjetoSpring\projetomusica\build\classes\java\main started by marce in C:\ProjetoSpring\projetomusica)
+2024-12-02T13:15:26.638-03:00  INFO 19892 --- [projetomusica] [restartedMain] c.p.p.ProjetomusicaApplication           : The following 1 profile is active: "test"
+2024-12-02T13:15:26.726-03:00  INFO 19892 --- [projetomusica] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-02T13:15:26.727-03:00  INFO 19892 --- [projetomusica] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-02T13:15:27.288-03:00  INFO 19892 --- [projetomusica] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-02T13:15:27.342-03:00  INFO 19892 --- [projetomusica] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 4 JPA repository interfaces.
+2024-12-02T13:15:28.279-03:00  INFO 19892 --- [projetomusica] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-02T13:15:28.298-03:00  INFO 19892 --- [projetomusica] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-02T13:15:28.298-03:00  INFO 19892 --- [projetomusica] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-12-02T13:15:28.351-03:00  INFO 19892 --- [projetomusica] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-02T13:15:28.351-03:00  INFO 19892 --- [projetomusica] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1622 ms
+2024-12-02T13:15:28.385-03:00  INFO 19892 --- [projetomusica] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-02T13:15:28.645-03:00  INFO 19892 --- [projetomusica] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:projetomusica user=SA
+2024-12-02T13:15:28.647-03:00  INFO 19892 --- [projetomusica] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-02T13:15:28.659-03:00  INFO 19892 --- [projetomusica] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:projetomusica'
+2024-12-02T13:15:28.810-03:00  INFO 19892 --- [projetomusica] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-02T13:15:28.872-03:00  INFO 19892 --- [projetomusica] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-02T13:15:28.911-03:00  INFO 19892 --- [projetomusica] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-02T13:15:29.294-03:00  INFO 19892 --- [projetomusica] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-02T13:15:30.460-03:00  INFO 19892 --- [projetomusica] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-02T13:15:30.530-03:00  INFO 19892 --- [projetomusica] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-02T13:15:31.117-03:00  WARN 19892 --- [projetomusica] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-02T13:15:31.469-03:00  INFO 19892 --- [projetomusica] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-02T13:15:31.508-03:00  INFO 19892 --- [projetomusica] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-02T13:15:31.517-03:00  INFO 19892 --- [projetomusica] [restartedMain] c.p.p.ProjetomusicaApplication           : Started ProjetomusicaApplication in 5.408 seconds (process running for 5.899)
+2024-12-02T13:33:41.720-03:00  INFO 19892 --- [projetomusica] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-02T13:33:41.726-03:00  INFO 19892 --- [projetomusica] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-02T13:33:41.761-03:00  INFO 19892 --- [projetomusica] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 34 ms
+2024-12-02T13:35:25.340-03:00  INFO 22364 --- [projetomusica] [restartedMain] c.p.p.ProjetomusicaApplication           : Starting ProjetomusicaApplication using Java 17.0.12 with PID 22364 (C:\ProjetoSpring\projetomusica\build\classes\java\main started by marce in C:\ProjetoSpring\projetomusica)
+2024-12-02T13:35:25.342-03:00  INFO 22364 --- [projetomusica] [restartedMain] c.p.p.ProjetomusicaApplication           : The following 1 profile is active: "test"
+2024-12-02T13:35:25.425-03:00  INFO 22364 --- [projetomusica] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-02T13:35:25.425-03:00  INFO 22364 --- [projetomusica] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-02T13:35:26.054-03:00  INFO 22364 --- [projetomusica] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-02T13:35:26.150-03:00  INFO 22364 --- [projetomusica] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84 ms. Found 4 JPA repository interfaces.
+2024-12-02T13:35:27.181-03:00  INFO 22364 --- [projetomusica] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-02T13:35:27.202-03:00  INFO 22364 --- [projetomusica] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-02T13:35:27.202-03:00  INFO 22364 --- [projetomusica] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-12-02T13:35:27.268-03:00  INFO 22364 --- [projetomusica] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-02T13:35:27.269-03:00  INFO 22364 --- [projetomusica] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1844 ms
+2024-12-02T13:35:27.305-03:00  INFO 22364 --- [projetomusica] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-02T13:35:27.573-03:00  INFO 22364 --- [projetomusica] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:projetomusica user=SA
+2024-12-02T13:35:27.575-03:00  INFO 22364 --- [projetomusica] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-02T13:35:27.586-03:00  INFO 22364 --- [projetomusica] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:projetomusica'
+2024-12-02T13:35:27.763-03:00  INFO 22364 --- [projetomusica] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-02T13:35:27.877-03:00  INFO 22364 --- [projetomusica] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-02T13:35:27.944-03:00  INFO 22364 --- [projetomusica] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-02T13:35:28.359-03:00  INFO 22364 --- [projetomusica] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-02T13:35:29.653-03:00  INFO 22364 --- [projetomusica] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-02T13:35:29.730-03:00  INFO 22364 --- [projetomusica] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-02T13:35:30.414-03:00  WARN 22364 --- [projetomusica] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-02T13:35:30.812-03:00  INFO 22364 --- [projetomusica] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-02T13:35:30.845-03:00  INFO 22364 --- [projetomusica] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-02T13:35:30.855-03:00  INFO 22364 --- [projetomusica] [restartedMain] c.p.p.ProjetomusicaApplication           : Started ProjetomusicaApplication in 6.028 seconds (process running for 6.614)
